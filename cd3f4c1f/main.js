@@ -112,6 +112,9 @@ function initDialog(eventOnClick) {
      <!--      <textarea name="" id="" readonly></textarea>  -->
      <!--  </label>  -->
 
+     <hr>
+     <label>Opened my source: <a href="https://github.com/FlySnowIII/develop/tree/master/cd3f4c1f">on Github</a></label>
+
         <footer>
             <button id="cancel">Close</button>
             <button type="button" id="ok" uxp-variant="cta">Export</button>
