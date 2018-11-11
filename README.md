@@ -9,6 +9,8 @@ Export Artboard for Responsive/複数サイズ同時出力/多尺寸图片输出
 
 ## Projcet 1 [cd3f4c1f]: Export Artboard for Responsive
 
+[YouTube Video:https://youtu.be/W1qyCzWWa94](https://youtu.be/W1qyCzWWa94)
+
 You can use this plugin to export all Artboards for mulite size.
 
 (英語苦手)
