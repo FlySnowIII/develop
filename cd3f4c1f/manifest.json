@@ -1,0 +1,27 @@
+
+{
+    "id": "EXPORT_ARTBOARD_FOR_RESPONSIVE",
+    "name": "(Pengfei) Export Rendition Plugin",
+    "version": "0.0.1",
+    "host": {
+        "app": "XD",
+        "minVersion": "0.0.1"
+    },
+    "icons":[
+        { "width": 96, "height": 96, "path": "images/icon.png" },
+        { "width": 192, "height": 192, "path": "images/icon@2x.png" }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": {
+                "default": "Export Artboard for Responsive",
+                "en": "Export Artboard for Responsive",
+                "ja": "複数サイズ同時出力",
+                "zh": "多尺寸图片输出"
+            },
+            
+            "commandId": "exportRendition"
+        }
+    ]
+}

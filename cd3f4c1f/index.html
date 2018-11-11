@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+
+<style>
+.my-flex-row .my-title{
+    width: 150px;
+}
+.my-flex-row input[type=text]{
+    width: 50px;
+}
+textarea {
+    height:200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.flex-row {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+</style>
+
+</head>
+
+<body>
+    <!-- <dialog id="myDialog"> -->
+    <form method="dialog">
+        <h1>Resize List</h1>
+
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">iPhone6/7/8</span>       <span>w</span><input value="333" type="text" id="iphone6-w"><span>h</span><input value="333" type="text" id="iphone6-h"><input type="checkbox" id="iphone6-check" checked="true"></div>
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">iPhone6/7/8 Plus</span>  <span>w</span><input value="333" type="text" id="ip6plus-w"><span>h</span><input value="333" type="text" id="ip6plus-h"><input type="checkbox" id="ip6plus-check" checked="true"></div>
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">iPhoneX/XS</span>        <span>w</span><input value="333" type="text" id="iphonex-w"><span>h</span><input value="333" type="text" id="iphonex-h"><input type="checkbox" id="iphonex-check" checked="true"></div>
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">iPhone XS Max/ XR</span> <span>w</span><input value="333" type="text" id="iphxmax-w"><span>h</span><input value="333" type="text" id="iphxmax-h"><input type="checkbox" id="iphxmax-check" checked="true"></div>
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">XiaoMi8</span>           <span>w</span><input value="333" type="text" id="xiaomi8-w"><span>h</span><input value="333" type="text" id="xiaomi8-h"><input type="checkbox" id="xiaomi8-check" checked="true"></div>
+        <div class="d-flex flex-row align-items-center my-flex-row"><span class="my-title">Customize</span>         <span>w</span><input autofocus="true" value="333" type="text" id="cutomiz-w"><span>h</span><input value="333" type="text" id="cutomiz-h"><input type="checkbox" id="cutomiz-check" checked="false"></div>
+        <label>
+            <span>Log</span>
+            <textarea name="" id="" style="height: 100px;" readonly></textarea>
+        </label>
+
+        <footer>
+            <button id="cancel">Cancel</button>
+            <button type="button" id="ok" uxp-variant="cta">OK</button>
+        </footer>
+    </form>
+    <!-- </dialog> -->
+</body>
+
+</html>
