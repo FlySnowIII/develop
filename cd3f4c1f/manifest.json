@@ -1,11 +1,11 @@
 
 {
-    "id": "EXPORT_ARTBOARD_FOR_RESPONSIVE",
-    "name": "(Pengfei) Export Rendition Plugin",
-    "version": "0.0.1",
+    "id": "cd3f4c1f",
+    "name": "Export Artboard for Responsive",
+    "version": "1.0.0",
     "host": {
         "app": "XD",
-        "minVersion": "0.0.1"
+        "minVersion": "1.0.0"
     },
     "icons":[
         { "width": 96, "height": 96, "path": "images/icon.png" },
